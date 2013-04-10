@@ -1,0 +1,79 @@
+---
+---
+<!doctype html>
+<html lang='en-us'>
+<head>
+	<meta charset='utf-8'>
+		{% if page.title == 'index' %}
+			{% assign counter = 0 %}
+			{% for exhibit in site.categories.exhibit %}
+				{% if exhibit.home == true and counter == 0 %}
+					{% assign counter = 1 %}
+					<title>{{exhibit.title}}</title>
+					<meta name='description' content="{{exhibit.content | truncate: 50 }}" />
+				{% endif %}
+			{%  endfor %}
+		{% else %}
+			<title>{{page.title}}</title>
+			<meta name='description' content="{{page.content | truncate: 50 }}" />
+		{% endif %}
+		<meta name='author' content="{{ site.author }}" />
+		<meta name='copyright' content="" />
+		<meta name='Robots' content="INDEX,FOLLOW" />
+		<meta name='Revisit-after' content="1 Day" />
+		<meta name='generator' content="Jekyll" />
+		<link rel='stylesheet' href='/stylesheets/screen.css' type='text/css' />
+	</head>
+	<body class='exhibits format-visual_index'>
+		<div id='index'>
+			<div class='container'>
+				<div class='top'>
+					<p><strong><a href='/' style='color: black;'>{{ site.title }}</a></strong></p>
+				</div>
+				{% for section in site.categories.section %}
+					<ul class='section' id='section_{{ section.id }}'>
+						<li><span id='section_title_{{ section.id }}' class='section_title'>{{ section.title }}</span>
+						{% for exhibit in site.categories.exhibit %}
+							<ul>
+							{% if exhibit.section == section.title %}
+								<li id='exhibit_{{exhibit.id}}' class='exhibit_title'><a href='{{exhibit.url}}'>{{exhibit.title}}</a></li>
+							{% endif %}
+							</ul>
+						{%  endfor %}
+						</li>
+					</ul>
+				{%  endfor %}
+				<div class='bot'><p>Creado por:<br />
+				<a href='http://twitter.com/{{site.twitter}}'>{{site.author}}</a></p>
+				<p><a href='https://github.com/colaborativa/Jekyllxhibit'>Desarrollado con Jekyllxhibit</a></p></div>
+			</div>
+		</div>
+		{% if page.title == 'index' %}
+			{% assign counter = 0 %}
+			{% for exhibit in site.categories.exhibit %}
+				{% if exhibit.home == true and counter == 0 %}
+					{% assign counter = 1 %}
+					<div id='exhibit'>
+						<div class='container'>
+							<div class='top'><!-- --></div>
+							<!-- text and image -->
+							<p><strong>{{ exhibit.title }}</strong></p>
+							{{ exhibit.content }}
+							<!-- end text and image -->
+						</div>
+					</div>
+				{% endif %}
+			{%  endfor %}
+		{% else %}
+		<div id='exhibit'>
+			<div class='container'>
+				<div class='top'><!-- --></div>
+				<!-- text and image -->
+				<p><strong>{{ page.title }}</strong></p>
+				{{ content }}
+				<!-- end text and image -->
+			</div>
+		</div>
+		{% endif %}
+	</body>
+</html>

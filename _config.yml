@@ -1,0 +1,23 @@
+permalink: none
+exclude: [ "sass", "CNAME", "config.rb", "LICENSE", "README.md", "_assets", "Gemfile", "Gemfile.lock", "rakefile" ]
+
+
+prose:
+ metadata: 
+  "_posts/exhibits": |
+   layout: "default"
+   category: "exhibit"
+   published: "true"
+   title: "Mi titulo"
+   section: "La sección a la que pertenece este exhibit"
+  "_posts/sections": |
+   published: "true"
+   layout: "default"
+   category: "section"
+   title: "El título de la sección"
+
+
+
+title: Jekyllxhibit
+author: colaborativa.eu
+twitter: colaborativaeu
