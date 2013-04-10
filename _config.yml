@@ -6,15 +6,13 @@ prose:
  rooturl: "_posts/"
  metadata: 
   "_posts/exhibits": |
-   layout: "default"
-   category: "exhibit"
-   published: "true"
-   title: "Mi titulo"
+   layout: default
+   category: exhibit
+   title: "El titulo del exhibit"
    section: "La sección a la que pertenece este exhibit"
   "_posts/sections": |
-   published: "true"
-   layout: "default"
-   category: "section"
+   layout: default
+   category: section
    title: "El título de la sección"
 
 
