@@ -3,14 +3,15 @@ exclude: [ "sass", "CNAME", "config.rb", "LICENSE", "README.md", "_assets", "Gem
 
 
 prose:
+ rooturl: "_posts/"
  metadata: 
-  "_posts/exhibits": |
+  "exhibits": |
    layout: "default"
    category: "exhibit"
    published: "true"
    title: "Mi titulo"
    section: "La sección a la que pertenece este exhibit"
-  "_posts/sections": |
+  "sections": |
    published: "true"
    layout: "default"
    category: "section"
