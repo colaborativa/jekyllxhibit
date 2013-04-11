@@ -2,7 +2,7 @@
 layout: default
 category: exhibit
 title: "Tutorial plantilla base Jekyllxhibit"
-section: "¡Tutoriales!"
+section: ¡Tutoriales!
 
 published: true
 ---
