@@ -2,44 +2,44 @@
 
 ## 1. Registro de dominio (opcional)
 
-El primer paso sería registrar un dominio .ES o .COM. En caso de no haber registrado un dominio nuestra página web estará alojada en un subdominio de GitHub
+El primer paso sería registrar un dominio .ES o .COM. En caso de no haber registrado un dominio nuestra página web estará alojada en un subdominio de *GitHub*
 
-> `nombreusuario.github.com
+> http://NOMBREUSUARIO.github.com 
 
-## 2. Dar de alta en GitHub
+## 2. Dar de alta en *GitHub*
 
 Vamos a utilizar las siguientes tres herramientas para crear nuestra página web:
 
-* Jekyll: es un simple generador de páginas web en html estático.
-* Prose.io: es un editor de contenidos en formato Jekyll.
-* GitHub Pages: aloja gratuitamente páginas generadas con Jekyll.
+* *Jekyll*: es un simple generador de páginas web en html estático.
+* *Prose.io*: es un editor de contenidos en formato *Jekyll*.
+* *GitHub Pages*: aloja gratuitamente páginas generadas con *Jekyll*.
 
-Nos damos de alta en Github.com, ¡es muy fácil y gratis!
+Nos damos de alta en *Github.com*, ¡es muy fácil y gratis!
 
 <a href="http://www.flickr.com/photos/50381188@N06/8637580247/" title="Paso-02-GitHub por colaborativa.eu, en Flickr"><img src="http://farm9.staticflickr.com/8244/8637580247_991f7df110.jpg" width="500" height="286" alt="Paso-02-GitHub"></a>
 
-## 3. Copiar plantilla base *jekyllxhibit* en nuestro usuario de GitHub
+## 3. Copiar plantilla base *Jekyllxhibit* en nuestro usuario de *GitHub*
 
-A continuación accedemos con nuestro usuario en GitHub y localizamos nuestra plantilla base *jekyllxhibit* en:
+A continuación accedemos con nuestro usuario en *GitHub* y localizamos nuestra plantilla base *Jekyllxhibit* en:
 
-> `https://github.com/colaborativa/jekyllxhibit`
+> https://github.com/colaborativa/jekyllxhibit
 
  <a href="http://www.flickr.com/photos/50381188@N06/8638707576/" title="Paso-03-01-GitHub-Clonar por colaborativa.eu, en Flickr"><img src="http://farm9.staticflickr.com/8399/8638707576_0138553b93.jpg" width="500" height="286" alt="Paso-03-01-GitHub-Clonar"></a>
 
-Hacemos click en **FORK this repo** localizado en la parte superior derecha y tendremos en nuestro usuario de GitHub una copia de la plantilla llamada *jekyllxhibit*.
+Hacemos click en **FORK this repo** localizado en la parte superior derecha y tendremos en nuestro usuario de *GitHub* una copia de la plantilla llamada *Jekyllxhibit*.
 
-## 4. Renombrar plantilla GitHub
+## 4. Renombrar plantilla *GitHub*
 
 Un paso más antes de comenzar a añadir contenidos. Tenemos que renombrar la actual plantilla teniendo en cuenta que:
 
 * Si vamos a utilizar un dominio propio no importa el nombre que elijamos para la plantilla.
 * Si no disponemos de dominio entonces la plantilla hay que llamarla igual siguiendo la nomenclatura: 
 
-> `NOMBREUSUARIO.github.com` 
+> NOMBREUSUARIO.github.com 
 
  De esta manera podremos acceder a nuestra página Web a través de la url: 
 
-> `http://nombreusuario.github.com`
+> http://nombreusuario.github.com
 
 Para renombrarla hacemos click en la pestaña **Settings** del repositorio, introducimos el nuevo nombre y hacemos click en **Rename**. Llegado este punto hay que asegurarse que la sección **GitHub Pages** de **Settings** está activada y puede leerse: 
 
@@ -47,14 +47,14 @@ Para renombrarla hacemos click en la pestaña **Settings** del repositorio, intr
 
 <a href="http://www.flickr.com/photos/50381188@N06/8638715922/" title="Paso-03-01-GitHub-Renombrar por colaborativa.eu, en Flickr"><img src="http://farm9.staticflickr.com/8118/8638715922_8ba3f8b6d4.jpg" width="500" height="286" alt="Paso-03-01-GitHub-Renombrar"></a>
 
-## 5. Configurar plantilla GitHub 
+## 5. Configurar plantilla *GitHub* 
 
-El archivo `CNAME` forma parte de nuestra plantilla *jekyllxhibit* y tiene que ser editado teniendo en cuenta:
+El archivo `CNAME` forma parte de nuestra plantilla *Jekyllxhibit* y tiene que ser editado teniendo en cuenta:
 
-* Si vamos a utilizar un dominio propio el archivo `CNAME` debe contener el nombre de nuestro dominio, por ejemplo: `colaborativa.eu`´.
+* Si vamos a utilizar un dominio propio el archivo `CNAME` debe contener el nombre de nuestro dominio, por ejemplo: `colaborativa.eu`.
 * Si no disponemos de dominio y nuestra página se accede a través de `NOMBREUSUARIO.github.com` entonces este archivo debe contener una línea en blanco.
 
-Para editar el archivo `CNAME` ir a nuestra plantilla en GitHub, veremos entonces la lista de archivos que la forman. Hacer click sobre el archivo `CNAME` y aparecerá la siguiente pantalla:
+Para editar el archivo `CNAME` ir a nuestra plantilla en *GitHub*, veremos entonces la lista de archivos que la forman. Hacer click sobre el archivo `CNAME` y aparecerá la siguiente pantalla:
 
 <a href="http://www.flickr.com/photos/50381188@N06/8637668359/" title="Paso-05-01-GitHub-Editar-CNAME por colaborativa.eu, en Flickr"><img src="http://farm9.staticflickr.com/8528/8637668359_e91c19c5f9.jpg" width="500" height="286" alt="Paso-05-01-GitHub-Editar-CNAME"></a> 
 
@@ -64,9 +64,9 @@ Hacer click en **Edit**, editarlo y hacer click en **Commit Changes** situado ab
 
 En el explorador ir a nombreusuario.github.com y ver la plantilla funcionando. ¡Ya podemos comenzar a añadir contenidos!
 
-## 6. Descripción estructura plantilla GitHub
+## 6. Descripción estructura plantilla *GitHub*
 
-Brevemente describimos los archivos que componen la plantilla en GitHub:
+Brevemente describimos los archivos que componen la plantilla en *GitHub*:
 
 * _config.yml: almacena información de configuración de la plantilla. 
 * _layouts: plantillas en html que se utilizarán para visualizar los posts, en nuestro caso sólo disponemos de una llamada `default.html`. 
@@ -85,11 +85,11 @@ Para comenzar a añadir contenidos iremos a:
 
 > `http://prose.io`
 
-y accederemos con nuestras credenciales de GitHub, para ello hacer click en el botón **Authorize with GitHub**.
+y accederemos con nuestras credenciales de *GitHub*, para ello hacer click en el botón **Authorize with GitHub**.
 
 <a href="http://www.flickr.com/photos/50381188@N06/8638725787/" title="Paso-07-01-Proseio-Acceder por colaborativa.eu, en Flickr"><img src="http://farm9.staticflickr.com/8522/8638725787_9a2ec88a12.jpg" width="500" height="271" alt="Paso-07-01-Proseio-Acceder"></a>
 
-Prose.io tendrá acceso a nuestra plantilla alojada en GitHub y nos permitirá añadir contenidos. Prose.io nos mostrará una lista de proyectos alojados en GitHub, hacemos click en la plantilla que deseamos modificar y aparecerá la siguiente pantalla:
+Prose.io tendrá acceso a nuestra plantilla alojada en *GitHub* y nos permitirá añadir contenidos. Prose.io nos mostrará una lista de proyectos alojados en *GitHub*, hacemos click en la plantilla que deseamos modificar y aparecerá la siguiente pantalla:
 
 <a href="http://www.flickr.com/photos/50381188@N06/8638736133/" title="Paso-07-02-Proseio-Listado por colaborativa.eu, en Flickr"><img src="http://farm9.staticflickr.com/8525/8638736133_9c982f554d.jpg" width="500" height="271" alt="Paso-07-02-Proseio-Listado"></a>
 
@@ -217,7 +217,7 @@ Haciendo click en el botón de **Vista preliminar** podemos comprobar que el ví
 
 ## Créditos
 
-La plantilla base *jekyllxhibit* 
+La plantilla base *Jekyllxhibit* 
 
 ## Contacto
 
