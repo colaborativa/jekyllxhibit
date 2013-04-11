@@ -10,11 +10,11 @@ published: true
 
 ## 1. Registro de dominio (opcional)
 
-El primer paso sería registrar un dominio .ES o .COM. En caso de no haber registrado un dominio nuestra página web estará alojada en un subdominio de *GitHub*
+El primer paso sería registrar un dominio .ES o .COM. En caso de no haber registrado un dominio nuestra página web estará alojada en un subdominio de [GitHub][6]
 
 > http://NOMBREUSUARIO.github.com 
 
-## 2. Dar de alta en *GitHub*
+## 2. Dar de alta en [GitHub][6]
 
 Vamos a utilizar las siguientes tres herramientas para crear nuestra página web:
 
@@ -22,21 +22,21 @@ Vamos a utilizar las siguientes tres herramientas para crear nuestra página web
 * *Prose.io*: es un editor de contenidos en formato *Jekyll*.
 * *GitHub Pages*: aloja gratuitamente páginas generadas con *Jekyll*.
 
-Nos damos de alta en *Github.com*, ¡es muy fácil y gratis!
+Nos damos de alta en [GitHub.com][6], ¡es muy fácil y gratis!
 
 <a href="http://www.flickr.com/photos/50381188@N06/8637580247/" title="Paso-02-GitHub por colaborativa.eu, en Flickr"><img src="http://farm9.staticflickr.com/8244/8637580247_991f7df110.jpg" width="500" height="286" alt="Paso-02-GitHub"></a>
 
-## 3. Copiar plantilla base *Jekyllxhibit* en nuestro usuario de *GitHub*
+## 3. Copiar plantilla base *Jekyllxhibit* en nuestro usuario de [GitHub][6]
 
-A continuación accedemos con nuestro usuario en *GitHub* y localizamos nuestra plantilla base *Jekyllxhibit* en:
+A continuación accedemos con nuestro usuario en [GitHub][6] y localizamos nuestra plantilla base *Jekyllxhibit* en:
 
-> https://github.com/colaborativa/jekyllxhibit
+> [https://github.com/colaborativa/jekyllxhibit][7]
 
  <a href="http://www.flickr.com/photos/50381188@N06/8638707576/" title="Paso-03-01-GitHub-Clonar por colaborativa.eu, en Flickr"><img src="http://farm9.staticflickr.com/8399/8638707576_0138553b93.jpg" width="500" height="286" alt="Paso-03-01-GitHub-Clonar"></a>
 
-Hacemos click en **FORK this repo** localizado en la parte superior derecha y tendremos en nuestro usuario de *GitHub* una copia de la plantilla llamada *Jekyllxhibit*.
+Hacemos click en **FORK this repo** localizado en la parte superior derecha y tendremos en nuestro usuario de [GitHub][6] una copia de la plantilla llamada *Jekyllxhibit*.
 
-## 4. Renombrar plantilla *GitHub*
+## 4. Renombrar plantilla [GitHub][6]
 
 Un paso más antes de comenzar a añadir contenidos. Tenemos que renombrar la actual plantilla teniendo en cuenta que:
 
@@ -55,14 +55,14 @@ Para renombrarla hacemos click en la pestaña **Settings** del repositorio, intr
 
 <a href="http://www.flickr.com/photos/50381188@N06/8638715922/" title="Paso-03-01-GitHub-Renombrar por colaborativa.eu, en Flickr"><img src="http://farm9.staticflickr.com/8118/8638715922_8ba3f8b6d4.jpg" width="500" height="286" alt="Paso-03-01-GitHub-Renombrar"></a>
 
-## 5. Configurar plantilla *GitHub* 
+## 5. Configurar plantilla [GitHub][6]
 
 El archivo `CNAME` forma parte de nuestra plantilla *Jekyllxhibit* y tiene que ser editado teniendo en cuenta:
 
 * Si vamos a utilizar un dominio propio el archivo `CNAME` debe contener el nombre de nuestro dominio, por ejemplo: `colaborativa.eu`. Habrá que esperar unos 10 minutos para ver el dominio actualizado.
 * Si no disponemos de dominio propio, se accederá a nuestra página  a través de `NOMBREUSUARIO.github.com`. En este caso el archivo `CNAME` debe contener una línea en blanco.
 
-Para editar el archivo `CNAME` ir a nuestra plantilla en *GitHub*, veremos entonces la lista de archivos que la forman. Hacer click sobre el archivo `CNAME` y aparecerá la siguiente pantalla:
+Para editar el archivo `CNAME` ir a nuestra plantilla en [GitHub][6], veremos entonces la lista de archivos que la forman. Hacer click sobre el archivo `CNAME` y aparecerá la siguiente pantalla:
 
 <a href="http://www.flickr.com/photos/50381188@N06/8637668359/" title="Paso-05-01-GitHub-Editar-CNAME por colaborativa.eu, en Flickr"><img src="http://farm9.staticflickr.com/8528/8637668359_e91c19c5f9.jpg" width="500" height="286" alt="Paso-05-01-GitHub-Editar-CNAME"></a> 
 
@@ -72,38 +72,37 @@ Hacer click en **Edit**, editarlo y hacer click en **Commit Changes** situado ab
 
 En el explorador ir a nombreusuario.github.com y ver la plantilla funcionando. ¡Ya podemos comenzar a añadir contenidos!
 
-## 6. Descripción estructura plantilla *GitHub*
+## 6. Descripción estructura plantilla [GitHub][6]
 
-Brevemente describimos los archivos que componen la plantilla en *GitHub*:
+Brevemente describimos los archivos que componen la plantilla en [GitHub][6]:
 
-* _config.yml: almacena información de configuración de la plantilla. 
-* _layouts: plantillas en html que se utilizarán para visualizar los posts, en nuestro caso sólo disponemos de una llamada `default.html`. 
+* archivo _config.yml: almacena información de configuración de la plantilla. 
+* directorio _layouts: plantillas en html que se utilizarán para visualizar los posts, en nuestro caso sólo disponemos de una llamada `default.html`. 
+* directorio _posts: el contenido de nuestra página Web se localiza en este directorio, deben nombrarse siguiendo la nomenclatura **AÑO-MES-DIA-título.md**. El orden en el que aparecen los contenidos viene determinado por esta fecha. Cuenta con dos subdirectorios: 
 
-* _posts: el contenido de nuestra página Web se localiza en este directorio, deben nombrarse siguiendo la nomenclatura **AÑO-MES-DIA-título.md**. El orden en el que aparecen los contenidos viene determinado por esta fecha. Cuenta con dos subdirectorios: 
+    * directorio sections: incluye las secciones que aparecen en la barra de la izquierda. Cada sección tiene asociado un número de exhibits.
 
-    * sections: incluye las secciones que aparecen en la barra de la izquierda. Cada sección tiene asociado un número de exhibits.
+    * directorio exhibits: incluye nuestros protectos, artículos, noticias, etc. Cada exhibit está asociado a una sección concreta.
 
-    * exhibits: incluye nuestros protectos, artículos, noticias, etc. Cada exhibit está asociado a una sección concreta.
+* directorio stylesheets: hojas de estilo en formato CSS.
 
-* stylesheets: hojas de estilo en formato CSS.
-
-## 7. Añadir Contenidos con Prose.io
+## 7. Añadir Contenidos con [Prose.io][4]
 
 Para comenzar a añadir contenidos iremos a:
 
-> http://prose.io
+> [http://prose.io][4]
 
-y accederemos con nuestras credenciales de *GitHub*, para ello hacer click en el botón **Authorize with GitHub**.
+y accederemos con nuestras credenciales de [GitHub][6], para ello hacer click en el botón **Authorize with GitHub**.
 
 <a href="http://www.flickr.com/photos/50381188@N06/8638725787/" title="Paso-07-01-Proseio-Acceder por colaborativa.eu, en Flickr"><img src="http://farm9.staticflickr.com/8522/8638725787_9a2ec88a12.jpg" width="500" height="271" alt="Paso-07-01-Proseio-Acceder"></a>
 
-Prose.io tendrá acceso a nuestra plantilla alojada en *GitHub* y nos permitirá añadir contenidos. Prose.io nos mostrará una lista de proyectos alojados en *GitHub*, hacemos click en la plantilla que deseamos modificar y aparecerá la siguiente pantalla:
+[Prose.io][4] tendrá acceso a nuestra plantilla alojada en [GitHub][6] y nos permitirá añadir contenidos. [Prose.io][4] nos mostrará una lista de proyectos alojados en [GitHub][6], hacemos click en la plantilla que deseamos modificar y aparecerá la siguiente pantalla:
 
 <a href="http://www.flickr.com/photos/50381188@N06/8638736133/" title="Paso-07-02-Proseio-Listado por colaborativa.eu, en Flickr"><img src="http://farm9.staticflickr.com/8525/8638736133_9c982f554d.jpg" width="500" height="271" alt="Paso-07-02-Proseio-Listado"></a>
 
 Podremos añadir o modificar contenidos en el directorio `exhibits`, que contiene nuestros proyectos, artículos, noticias, etc., y en el directorio `sections`, que contiene las secciones en las que se clasifican los exhibits y se muestran en la columna de la izquierda.
 
-### 7.1 Editar secciones con Prose.io
+### 7.1 Editar secciones con [Prose.io][4]
 
 Para editar una sección existente hacer click en el directorio `sections` y aparecerá el listado de secciones existentes:
 
@@ -121,7 +120,7 @@ Los contenidos se escriben en formato de texto *Markdown*. Se trata de un lengua
 
 Os recomendamos utilizar el siguiente editor online de *Markdown* para poder visualizar y editar al mismo tiempo:
 
-> http://jrmoran.com/playground/markdown-live-editor/
+> [http://jrmoran.com/playground/markdown-live-editor/][5]
 
 Al hacer click en el botón **M** de la barra de edición nos aparecerá un pequeño y sencillo tutorial de la sintaxis *Markdown*:
 
@@ -157,13 +156,13 @@ A continuación hacer click en el botón **Commit** para confirmar los cambios. 
 
 Si en el momento de guardar no estamos satisfechos con los cambios realizados podemos volver a la pantalla de edición haciendo click en el icono de **Prohibido**, situado junto al botón **Commit**.
 
-### 7.2 Añadir fotos con Prose.io y Flickr.com
+### 7.2 Añadir fotos con [Prose.io][4] y [Flickr.com][9]
 
-Para añadir fotos a uno de nuestros artículos situados en el directorio `exhibits` primero tendremos que seleccionar el archivo a través de *Prose.io* y entrar en la pantalla de edición.
+Para añadir fotos a uno de nuestros artículos situados en el directorio `exhibits` primero tendremos que seleccionar el archivo a través de [Prose.io][4] y entrar en la pantalla de edición.
 
 <a href="http://www.flickr.com/photos/50381188@N06/8639973616/" title="Paso-07-10-Proseio-flickr por colaborativa.eu, en Flickr"><img src="http://farm9.staticflickr.com/8542/8639973616_c271f67bb5.jpg" width="500" height="396" alt="Paso-07-10-Proseio-flickr"></a>
 
-Una manera fácil de almacenar las imágenes de nuestra página Web es a través del servicio gratuito que ofrece *Flickr.com*. Para ello tendremos que darnos de alta en *Flickr.com* y añadir las fotos. Para insertar una foto en uno de nuestros exhibits sólo hay que hacer click en el botón **Compartir** de *Flickr.com*, copiar el código html asociado a la imagen y pegarlo en el archivo de nuestro exhibit en *Prose.io*.
+Una manera fácil de almacenar las imágenes de nuestra página Web es a través del servicio gratuito que ofrece [Flickr.com][9]. Para ello tendremos que darnos de alta en [Flickr.com][9] y añadir las fotos. Para insertar una foto en uno de nuestros exhibits sólo hay que hacer click en el botón **Compartir** de [Flickr.com][9], copiar el código html asociado a la imagen y pegarlo en el archivo de nuestro exhibit en [Prose.io][4].
 
 <a href="http://www.flickr.com/photos/50381188@N06/8639974016/" title="Paso-07-11-Proseio-flickr por colaborativa.eu, en Flickr"><img src="http://farm9.staticflickr.com/8117/8639974016_c2a77b12fa.jpg" width="500" height="289" alt="Paso-07-11-Proseio-flickr"></a>
 
@@ -182,21 +181,21 @@ Si en el momento de guardar no estamos satisfechos con los cambios realizados po
 <a href="http://www.flickr.com/photos/50381188@N06/8638878691/" title="Paso-07-15-Proseio-flickr por colaborativa.eu, en Flickr"><img src="http://farm9.staticflickr.com/8259/8638878691_d4e66bf223.jpg" width="500" height="396" alt="Paso-07-15-Proseio-flickr"></a>
 
 
-### 7.3 Añadir vídeos con Prose.io y Vimeo.com
+### 7.3 Añadir vídeos con [Prose.io][4] y [vimeo.com][8]
 
-Para añadir fotos a nuestros `exhibits` hay que seguir un proceso similar, recomendamos utilizar el servicio gratuito *vimeo.com*. El primer paso sería darse de alta en *vimeo.com* y subir el vídeo que queremos insertar en nuestra página Web. La siguiente captura muestra el formulario de alta de *vimeo.com*.
+Para añadir fotos a nuestros `exhibits` hay que seguir un proceso similar, recomendamos utilizar el servicio gratuito [vimeo.com][8]. El primer paso sería darse de alta en [vimeo.com][8] y subir el vídeo que queremos insertar en nuestra página Web. La siguiente captura muestra el formulario de alta de [vimeo.com][8].
 
 <a href="http://www.flickr.com/photos/50381188@N06/8640024066/" title="Paso-07-16-Proseio-vimeo por colaborativa.eu, en Flickr"><img src="http://farm9.staticflickr.com/8099/8640024066_a1b65e15a3.jpg" width="500" height="396" alt="Paso-07-16-Proseio-vimeo"></a>
 
-A continuación, accedemos a *vimeo.com* y añadimos nuestro primer vídeo. Para insertarlo en uno de nuestro `exhibits` habrá que hacer click en el botón **Share** situado en la esquina superior derecha del vídeo y copiar el texto situado bajo el título **Embed**.
+A continuación, accedemos a [vimeo.com][8] y añadimos nuestro primer vídeo. Para insertarlo en uno de nuestro `exhibits` habrá que hacer click en el botón **Share** situado en la esquina superior derecha del vídeo y copiar el texto situado bajo el título **Embed**.
 
 <a href="http://www.flickr.com/photos/50381188@N06/8639974276/" title="Paso-07-12-Proseio-vimeo por colaborativa.eu, en Flickr"><img src="http://farm9.staticflickr.com/8522/8639974276_c5b2b83e89.jpg" width="500" height="289" alt="Paso-07-12-Proseio-vimeo"></a>
 
-En *Prose.io* accedemos al `exhibit` en el que deseamos insertar el vídeo y pegamos el texto de *vimeo.com*.
+En [vimeo.com][8] accedemos al `exhibit` en el que deseamos insertar el vídeo y pegamos el texto de [vimeo.com][8].
 
 <a href="http://www.flickr.com/photos/50381188@N06/8640024222/" title="Paso-07-17-Proseio-vimeo por colaborativa.eu, en Flickr"><img src="http://farm9.staticflickr.com/8108/8640024222_2c4ee838f7.jpg" width="500" height="396" alt="Paso-07-17-Proseio-vimeo"></a>
 
-En el texto para la inserción del vídeo hay que hacer una comprobación antes de almacenar los cambios del `exhibit`. *Prose.io* no entiende correctamente aquellas variables en las que no se especifica ningún valor, esperamos que resuelvan este problem pronto. En el ejemplo de abajo se trataría de las variables: **webkitAllowFullScreen**, **mozallowfullscreen** y **allowFullScreen**.
+En el texto para la inserción del vídeo hay que hacer una comprobación antes de almacenar los cambios del `exhibit`. [Prose.io][4] no entiende correctamente aquellas variables en las que no se especifica ningún valor, esperamos que resuelvan este problem pronto. En el ejemplo de abajo se trataría de las variables: **webkitAllowFullScreen**, **mozallowfullscreen** y **allowFullScreen**.
 
 ```<iframe src="http://player.vimeo.com/video/58116607" width="500" height="281" frameborder="0" webkitAllowFullScreen mozallowfullscreen
  allowFullScreen> </iframe> <p><a href="http://vimeo.com/58116607">Montaje RepRapPro Huxley en Colaboratorio</a> from <a href="http://vimeo.com/colaborativa">colaborativa</a> on <a
@@ -223,6 +222,12 @@ Puedes contactar con nosotros en info@colaborativa.eu para más información o v
 [1]: http://opensource.org/licenses/MIT
 [2]: http://creativecommons.org/licenses/by/3.0/es/
 [3]: http://colaborativa.eu
+[4]: http://prose.io
+[5]: http://jrmoran.com/playground/markdown-live-editor/
+[6]: http://gitHub.com
+[7]: https://github.com/colaborativa/jekyllxhibit
+[8]: http://vimeo.com
+[9]: http://flickr.com
 
 
 
