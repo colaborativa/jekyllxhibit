@@ -43,7 +43,7 @@ Un paso más antes de comenzar a añadir contenidos. Tenemos que renombrar la ac
 
 Para renombrarla hacemos click en la pestaña **Settings** del repositorio, introducimos el nuevo nombre y hacemos click en **Rename**. Llegado este punto hay que asegurarse que la sección **GitHub Pages** de **Settings** está activada y puede leerse: 
 
-> `Your site is published at http://www.nombreusuario.github.com
+> Your site is published at http://www.nombreusuario.github.com
 
 <a href="http://www.flickr.com/photos/50381188@N06/8638715922/" title="Paso-03-01-GitHub-Renombrar por colaborativa.eu, en Flickr"><img src="http://farm9.staticflickr.com/8118/8638715922_8ba3f8b6d4.jpg" width="500" height="286" alt="Paso-03-01-GitHub-Renombrar"></a>
 
@@ -51,8 +51,8 @@ Para renombrarla hacemos click en la pestaña **Settings** del repositorio, intr
 
 El archivo `CNAME` forma parte de nuestra plantilla *Jekyllxhibit* y tiene que ser editado teniendo en cuenta:
 
-* Si vamos a utilizar un dominio propio el archivo `CNAME` debe contener el nombre de nuestro dominio, por ejemplo: `colaborativa.eu`.
-* Si no disponemos de dominio y nuestra página se accede a través de `NOMBREUSUARIO.github.com` entonces este archivo debe contener una línea en blanco.
+* Si vamos a utilizar un dominio propio el archivo `CNAME` debe contener el nombre de nuestro dominio, por ejemplo: `colaborativa.eu`. Habrá que esperar unos 10 minutos para ver el dominio actualizado.
+* Si no disponemos de dominio propio, se accederá a nuestra página  a través de `NOMBREUSUARIO.github.com`. En este caso el archivo `CNAME` debe contener una línea en blanco.
 
 Para editar el archivo `CNAME` ir a nuestra plantilla en *GitHub*, veremos entonces la lista de archivos que la forman. Hacer click sobre el archivo `CNAME` y aparecerá la siguiente pantalla:
 
@@ -79,7 +79,7 @@ Brevemente describimos los archivos que componen la plantilla en *GitHub*:
 
 * stylesheets: hojas de estilo en formato CSS.
 
-## 7: Añadir Contenidos con Prose.io
+## 7. Añadir Contenidos con Prose.io
 
 Para comenzar a añadir contenidos iremos a:
 
@@ -107,23 +107,29 @@ Hacemos click en la que deseamos modificar y aparecerá la siguiente barra de ed
 
 A continuación vamos a explicar las opciones de la barra de edición:
 
-#### Formato Markdown
+#### Formato *Markdown*
 
-Nuestros contenidos se escriben en formato de texto Markdown. Se trata de un lenguaje de marcado fácil y en el que se pueden insertar bloques de texto html. Al hacer click en el botón **M** de la barra de edición nos aparecerá un pequeño y sencillo tutorial de la sintaxis Markdown:
+Los contenidos se escriben en formato de texto *Markdown*. Se trata de un lenguaje de marcado fácil y en el que se pueden insertar bloques de texto `HTML`. El formato *Markdown* genera archivos muy limpios y separa estilo de contenido, esto es positivo ya que puedes reutilizar el mismo contenido con distintos formatos.
+
+Os recomendamos utilizar el siguiente editor online de *Markdown* para poder visualizar y editar al mismo tiempo:
+
+> http://jrmoran.com/playground/markdown-live-editor/
+
+Al hacer click en el botón **M** de la barra de edición nos aparecerá un pequeño y sencillo tutorial de la sintaxis *Markdown*:
 
 <a href="http://www.flickr.com/photos/50381188@N06/8638769529/" title="Paso-07-05-Proseio-barra-edicion-markdown por colaborativa.eu, en Flickr"><img src="http://farm9.staticflickr.com/8106/8638769529_8a0f461062.jpg" width="500" height="396" alt="Paso-07-05-Proseio-barra-edicion-markdown"></a>
 
-#### Cabecera con metadata
+#### Cabecera con *Metadatos*
 
-Todos los archivos contienen una pequeña cabecera con variables de configuración sencillas llamada **metadata** y a continuación el contenido propiamente dicho de la sección o exhibit a editar. A través del botón **Metadata** podemos mostrar o ocultar esta cabecera, lo cual nos permitirá centrarnos en la edición del contenido.
+Todos los archivos contienen una pequeña cabecera con variables de configuración sencillas llamada **Metadata** y a continuación el contenido propiamente dicho de la sección o exhibit a editar. A través del botón **Metadata** podemos mostrar o ocultar esta cabecera, lo cual nos permitirá centrarnos en la edición del contenido.
 
 <a href="http://www.flickr.com/photos/50381188@N06/8639873168/" title="Paso-07-06-Proseio-barra-edicion-metadata por colaborativa.eu, en Flickr"><img src="http://farm9.staticflickr.com/8539/8639873168_62718f54f7.jpg" width="500" height="396" alt="Paso-07-06-Proseio-barra-edicion-metadata"></a>
 
-En el caso de las secciones sólo existirá la cabecera metadata, la parte de contenidos estará vacía, y el único dato que tendremos que editar es el que corresponde a la etiqueta **title** que se refiere al título de la sección que aparecerá en la columna izquierda de la página Web. El resto de etiquetas permanecerán intactas.
+En el caso de las secciones sólo existirá la cabecera de *Metadatos*, la parte de contenidos estará vacía, y el único dato que tendremos que editar es el que corresponde a la etiqueta **title** que se refiere al título de la sección que aparecerá en la columna izquierda de la página Web. El resto de etiquetas permanecerán intactas.
 
 #### Sección publicada
 
-Otra opción de la barra de edición nos permite indicar si la sección se publicará en nuestra Web o no. Está representada por el icono standárd de **Herramientas**. Esta opción resulta de utilidad cuando estamos creando nuevas secciones que aún no hemos llenado de contenido por lo que nos interesa mantenerlas ocultas.
+Otra opción de la barra de edición nos permite indicar si la sección se publicará en nuestra Web o no. Está representada por el icono estándard de **Herramientas**. Esta opción resulta de utilidad cuando estamos creando nuevas secciones que aún no hemos llenado de contenido por lo que nos interesa mantenerlas ocultas.
 
 <a href="http://www.flickr.com/photos/50381188@N06/8639873292/" title="Paso-07-07-Proseio-barra-edicion-publicado por colaborativa.eu, en Flickr"><img src="http://farm9.staticflickr.com/8521/8639873292_08de43dce8.jpg" width="500" height="396" alt="Paso-07-07-Proseio-barra-edicion-publicado"></a>
 
@@ -182,7 +188,7 @@ En *Prose.io* accedemos al `exhibit` en el que deseamos insertar el vídeo y peg
 
 <a href="http://www.flickr.com/photos/50381188@N06/8640024222/" title="Paso-07-17-Proseio-vimeo por colaborativa.eu, en Flickr"><img src="http://farm9.staticflickr.com/8108/8640024222_2c4ee838f7.jpg" width="500" height="396" alt="Paso-07-17-Proseio-vimeo"></a>
 
-En el texto para la inserción del vídeo hay que hacer una comprobación antes de almacenar los cambios del `exhibit`. *Prose.io* no entiende correctamente aquellas variables en las que no se especifica ningún valor, esperamos que resuelvan este problem pronto. En el ejemplo de abajo se trataría de las variables: webkitAllowFullScreen, mozallowfullscreen y allowFullScreen.
+En el texto para la inserción del vídeo hay que hacer una comprobación antes de almacenar los cambios del `exhibit`. *Prose.io* no entiende correctamente aquellas variables en las que no se especifica ningún valor, esperamos que resuelvan este problem pronto. En el ejemplo de abajo se trataría de las variables: **webkitAllowFullScreen**, **mozallowfullscreen** y **allowFullScreen**.
 
 ```<iframe src="http://player.vimeo.com/video/58116607" width="500" height="281" frameborder="0" webkitAllowFullScreen mozallowfullscreen
  allowFullScreen> </iframe> <p><a href="http://vimeo.com/58116607">Montaje RepRapPro Huxley en Colaboratorio</a> from <a href="http://vimeo.com/colaborativa">colaborativa</a> on <a
@@ -201,12 +207,11 @@ Haciendo click en el botón de **Vista preliminar** podemos comprobar que el ví
 
 ## Créditos
 
-La plantilla base *Jekyllxhibit* 
-
+La plantilla base *Jekyllxhibit* es un proyecto de código libre distribuido bajo [licencia MIT][1]. Los textos e imágenes bajo una licencia creative commons [CC BY 3.0 ES][2].
 ## Contacto
 
-Puedes contactar con nosotros en info@colaborativa.eu para más información.
+Puedes contactar con nosotros en info@colaborativa.eu para más información o visitar nuestra página Web [colaborativa.eu][3].
 
-[1]: http://colaborativa.eu
-[2]: http://jrmoran.com/playground/markdown-live-editor/
-
+[1]: http://opensource.org/licenses/MIT
+[2]: http://creativecommons.org/licenses/by/3.0/es/
+[3]: http://colaborativa.eu
