@@ -29,14 +29,22 @@ code { font-family: monospace; }
 blockquote { padding-left: 9px; }
 
 /* headings */
-h1 { font-size: 13px; margin-bottom: 1em; font-weight: bold; }
-h2 { font-size: 13px; margin-bottom: 1em; font-weight: bold; }
-h3 { font-size: 13px; margin-bottom: 1em; font-weight: bold; }
-h4 { font-size: 13px; margin-bottom: 1em; }
+h1 { font-size: 13px; margin-bottom: 1em; margin-top: 1em; font-weight: bold; width: 550px;}
+h2 { font-size: 13px; margin-bottom: 1em; margin-top: 1em; font-weight: bold; width: 550px;}
+h3 { font-size: 13px; margin-bottom: 1em; margin-top: 1em; font-weight: bold; width: 550px;}
+h4 { font-size: 13px; margin-bottom: 1em; margin-top: 1em; }
 
 /* paragraph width */
 #index p { width: auto; margin-bottom: 1em; }
 #exhibit p, code, blockquote { width: 450px; margin-bottom: 1em; /* line-height: 1.3em; */ }
+
+/* list styling */
+#exhibit ul{ list-style-type: disc; margin-bottom: 1.5em; margin-top: 1em; padding-left: 1em; width: 450px; }
+#exhibit li{ list-style-type: disc; margin-bottom: 0.5em; margin-top: 0.5em;}
+
+/* image styling */
+#exhibit img{ border: 1px solid #ddd; margin-bottom: 1em; margin-top: 1em;}
+#exhibit img.sinBorde{ border: none;}
 
 /* highlighter style - maybe you want to change colors? */
 .highlight { background: #ccff00; color: #000; }

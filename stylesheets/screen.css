@@ -2,7 +2,7 @@
  * In this file you should write your main styles. (or centralize your imports)
  * Import this file using the following HTML or equivalent:
  * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
-/* line 17, /Applications/LiveReload.app/Contents/Resources/SASS.lrplugin/lib/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 17, ../../../../../Applications/LiveReload.app/Contents/Resources/SASS.lrplugin/lib/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -24,45 +24,45 @@ time, mark, audio, video {
   vertical-align: baseline;
 }
 
-/* line 20, /Applications/LiveReload.app/Contents/Resources/SASS.lrplugin/lib/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 20, ../../../../../Applications/LiveReload.app/Contents/Resources/SASS.lrplugin/lib/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 body {
   line-height: 1;
 }
 
-/* line 22, /Applications/LiveReload.app/Contents/Resources/SASS.lrplugin/lib/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 22, ../../../../../Applications/LiveReload.app/Contents/Resources/SASS.lrplugin/lib/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 ol, ul {
   list-style: none;
 }
 
-/* line 24, /Applications/LiveReload.app/Contents/Resources/SASS.lrplugin/lib/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 24, ../../../../../Applications/LiveReload.app/Contents/Resources/SASS.lrplugin/lib/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
 
-/* line 26, /Applications/LiveReload.app/Contents/Resources/SASS.lrplugin/lib/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 26, ../../../../../Applications/LiveReload.app/Contents/Resources/SASS.lrplugin/lib/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 caption, th, td {
   text-align: left;
   font-weight: normal;
   vertical-align: middle;
 }
 
-/* line 28, /Applications/LiveReload.app/Contents/Resources/SASS.lrplugin/lib/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 28, ../../../../../Applications/LiveReload.app/Contents/Resources/SASS.lrplugin/lib/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 q, blockquote {
   quotes: none;
 }
-/* line 101, /Applications/LiveReload.app/Contents/Resources/SASS.lrplugin/lib/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 101, ../../../../../Applications/LiveReload.app/Contents/Resources/SASS.lrplugin/lib/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 q:before, q:after, blockquote:before, blockquote:after {
   content: "";
   content: none;
 }
 
-/* line 30, /Applications/LiveReload.app/Contents/Resources/SASS.lrplugin/lib/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 30, ../../../../../Applications/LiveReload.app/Contents/Resources/SASS.lrplugin/lib/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 a img {
   border: none;
 }
 
-/* line 114, /Applications/LiveReload.app/Contents/Resources/SASS.lrplugin/lib/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 114, ../../../../../Applications/LiveReload.app/Contents/Resources/SASS.lrplugin/lib/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
   display: block;
 }
@@ -70,47 +70,47 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 /* the base.css file is for things that are less commonly changed */
 /* however, it is not unlikely you will want to change #index nav rules */
 /* example rules for styling via section */
-/* line 5, /Users/javito/Sites/template-jekyll.colaborativa.eu/sass/_base.scss */
+/* line 5, ../sass/_base.scss */
 body.section-1 {
   /* background-color: yellow; */
 }
 
 /* style via particular exhibit */
 /* styling via exhibit format */
-/* line 10, /Users/javito/Sites/template-jekyll.colaborativa.eu/sass/_base.scss */
+/* line 10, ../sass/_base.scss */
 body.visual_index {
   /* background: green; */
 }
 
 /* general styles - not recommended for change */
-/* line 13, /Users/javito/Sites/template-jekyll.colaborativa.eu/sass/_base.scss */
+/* line 13, ../sass/_base.scss */
 strong, b {
   font-weight: bold;
 }
 
-/* line 14, /Users/javito/Sites/template-jekyll.colaborativa.eu/sass/_base.scss */
+/* line 14, ../sass/_base.scss */
 em, i {
   font-style: italic;
 }
 
-/* line 15, /Users/javito/Sites/template-jekyll.colaborativa.eu/sass/_base.scss */
+/* line 15, ../sass/_base.scss */
 object {
   display: block;
 }
 
-/* line 16, /Users/javito/Sites/template-jekyll.colaborativa.eu/sass/_base.scss */
+/* line 16, ../sass/_base.scss */
 .once {
   clear: left;
 }
 
-/* line 17, /Users/javito/Sites/template-jekyll.colaborativa.eu/sass/_base.scss */
+/* line 17, ../sass/_base.scss */
 .clL {
   clear: left;
 }
 
 /* this is to prevent some background colors on links in exhibits */
 /* do not change these */
-/* line 24, /Users/javito/Sites/template-jekyll.colaborativa.eu/sass/_base.scss */
+/* line 24, ../sass/_base.scss */
 #img-container span.backgrounded a,
 #img-container a.thickbox,
 #img-container a.thumb-img,
@@ -119,7 +119,7 @@ object {
 }
 
 /* not recommended for change */
-/* line 27, /Users/javito/Sites/template-jekyll.colaborativa.eu/sass/_base.scss */
+/* line 27, ../sass/_base.scss */
 #index {
   overflow: auto;
   top: 0;
@@ -130,7 +130,7 @@ object {
   z-index: 1;
 }
 
-/* line 36, /Users/javito/Sites/template-jekyll.colaborativa.eu/sass/_base.scss */
+/* line 36, ../sass/_base.scss */
 #exhibit {
   height: 100%;
   top: 0;
@@ -140,7 +140,7 @@ object {
 /* the following rules for index are not required */
 /* they are mostly for complex customization */
 /* styles for the section titles */
-/* line 45, /Users/javito/Sites/template-jekyll.colaborativa.eu/sass/_base.scss */
+/* line 45, ../sass/_base.scss */
 #index ul.section span.section_title,
 #index ul.section span.section_title a {
   cursor: pointer;
@@ -151,7 +151,7 @@ object {
 /* styles for hovering section titles */
 /* active section titles */
 /* sub-section titles */
-/* line 60, /Users/javito/Sites/template-jekyll.colaborativa.eu/sass/_base.scss */
+/* line 60, ../sass/_base.scss */
 #index ul.section span.subsection_title,
 #index ul.section span.subsection_title a {
   cursor: pointer;
@@ -167,43 +167,35 @@ object {
 /* links within the specific section */
 /* specific exhibit title */
 /* affect subsections container */
-/* line 93, /Users/javito/Sites/template-jekyll.colaborativa.eu/sass/_base.scss */
+/* line 93, ../sass/_base.scss */
 #index ul.subsection {
   /* padding-left: 18px; */
 }
 
 /* top/bot divs - not really used but do exist */
-/* line 96, /Users/javito/Sites/template-jekyll.colaborativa.eu/sass/_base.scss */
+/* line 96, ../sass/_base.scss */
 #index .top {
   /* height: 36px; */
 }
 
-/* line 97, /Users/javito/Sites/template-jekyll.colaborativa.eu/sass/_base.scss */
+/* line 97, ../sass/_base.scss */
 #exhibit .top {
   display: none;
 }
 
 /* generic #img-container - but remember that exhibit formats can override these */
-/* line 104, /Users/javito/Sites/template-jekyll.colaborativa.eu/sass/_base.scss */
+/* line 104, ../sass/_base.scss */
 #img-container .captioning .title {
   /* font-size: 13px; */
 }
 
-/* line 105, /Users/javito/Sites/template-jekyll.colaborativa.eu/sass/_base.scss */
+/* line 105, ../sass/_base.scss */
 #img-container .captioning .caption {
   /* font-size: 13px; */
   text-align: left;
 }
 
-/**
-* CSS
-* 
-* @version 2.0
-* @author Vaska 
-*
-* There are also some obscure rules in base.css
-*/
-/* line 18, ../sass/screen.scss */
+/* line 9, ../sass/screen.scss */
 body {
   font-size: 13px;
   font-family: 'Helvetica Neue', Arial, Helvetica, Verdana, sans-serif;
@@ -215,94 +207,131 @@ body {
 
 /* link scheme */
 /* you can customize links further down the page too */
-/* line 29, ../sass/screen.scss */
+/* line 20, ../sass/screen.scss */
 a:link {
   text-decoration: none;
   color: #000;
 }
 
-/* line 30, ../sass/screen.scss */
+/* line 21, ../sass/screen.scss */
 a:active {
   text-decoration: none;
   color: #00cc00;
 }
 
-/* line 31, ../sass/screen.scss */
+/* line 22, ../sass/screen.scss */
 a:visited {
   text-decoration: none;
   color: #666;
 }
 
-/* line 32, ../sass/screen.scss */
+/* line 23, ../sass/screen.scss */
 a:hover {
   text-decoration: underline;
 }
 
-/* line 33, ../sass/screen.scss */
+/* line 24, ../sass/screen.scss */
 a img {
   border: none;
 }
 
 /* general styles */
-/* line 36, ../sass/screen.scss */
+/* line 27, ../sass/screen.scss */
 small {
   font-size: 9px;
 }
 
-/* line 37, ../sass/screen.scss */
+/* line 28, ../sass/screen.scss */
 code {
   font-family: monospace;
 }
 
-/* line 38, ../sass/screen.scss */
+/* line 29, ../sass/screen.scss */
 blockquote {
   padding-left: 9px;
 }
 
 /* headings */
-/* line 41, ../sass/screen.scss */
+/* line 32, ../sass/screen.scss */
 h1 {
   font-size: 13px;
   margin-bottom: 1em;
+  margin-top: 1em;
   font-weight: bold;
+  width: 550px;
 }
 
-/* line 42, ../sass/screen.scss */
+/* line 33, ../sass/screen.scss */
 h2 {
   font-size: 13px;
   margin-bottom: 1em;
+  margin-top: 1em;
   font-weight: bold;
+  width: 550px;
 }
 
-/* line 43, ../sass/screen.scss */
+/* line 34, ../sass/screen.scss */
 h3 {
   font-size: 13px;
   margin-bottom: 1em;
+  margin-top: 1em;
   font-weight: bold;
+  width: 550px;
 }
 
-/* line 44, ../sass/screen.scss */
+/* line 35, ../sass/screen.scss */
 h4 {
   font-size: 13px;
   margin-bottom: 1em;
+  margin-top: 1em;
 }
 
 /* paragraph width */
-/* line 47, ../sass/screen.scss */
+/* line 38, ../sass/screen.scss */
 #index p {
   width: auto;
   margin-bottom: 1em;
 }
 
-/* line 48, ../sass/screen.scss */
+/* line 39, ../sass/screen.scss */
 #exhibit p, code, blockquote {
   width: 450px;
   margin-bottom: 1em;
   /* line-height: 1.3em; */
 }
 
+/* list styling */
+/* line 42, ../sass/screen.scss */
+#exhibit ul {
+  list-style-type: disc;
+  margin-bottom: 1.5em;
+  margin-top: 1em;
+  padding-left: 1em;
+  width: 450px;
+}
+
+/* line 43, ../sass/screen.scss */
+#exhibit li {
+  list-style-type: disc;
+  margin-bottom: 0.5em;
+  margin-top: 0.5em;
+}
+
+/* image styling */
+/* line 46, ../sass/screen.scss */
+#exhibit img {
+  border: 1px solid #ddd;
+  margin-bottom: 1em;
+  margin-top: 1em;
+}
+
+/* line 47, ../sass/screen.scss */
+#exhibit img.sinBorde {
+  border: none;
+}
+
 /* highlighter style - maybe you want to change colors? */
-/* line 51, ../sass/screen.scss */
+/* line 50, ../sass/screen.scss */
 .highlight {
   background: #ccff00;
   color: #000;
@@ -310,26 +339,26 @@ h4 {
 
 /* never adjust the margin or padding here unless you seriously know what you are doing */
 /* think #index .container and #exhibit .container for only padding adjustments */
-/* line 55, ../sass/screen.scss */
+/* line 54, ../sass/screen.scss */
 #index {
   width: 215px;
   background: #fff;
   /* line-height: 1.3em; */
 }
 
-/* line 56, ../sass/screen.scss */
+/* line 55, ../sass/screen.scss */
 #exhibit {
   margin: 0 0 0 215px;
 }
 
 /* styling the index */
-/* line 59, ../sass/screen.scss */
+/* line 58, ../sass/screen.scss */
 #index ul {
   list-style: none;
   margin: 0;
 }
 
-/* line 60, ../sass/screen.scss */
+/* line 59, ../sass/screen.scss */
 #index ul.section {
   margin-bottom: 1em;
 }
@@ -337,27 +366,27 @@ h4 {
 /* the follow rules for index are not required */
 /* they are mostly for complex customization */
 /* for tag display */
-/* line 66, ../sass/screen.scss */
+/* line 65, ../sass/screen.scss */
 #index ul#all_tags {
   list-style-type: none;
   margin-bottom: 1em;
 }
 
-/* line 67, ../sass/screen.scss */
+/* line 66, ../sass/screen.scss */
 #index ul#all_tags li {
   display: inline;
   margin-right: 3px;
 }
 
 /* active section title */
-/* line 72, ../sass/screen.scss */
+/* line 71, ../sass/screen.scss */
 #index span.active_section_title,
 #index span.active_section_title a {
   font-weight: normal;
 }
 
 /* active exhibit title parts */
-/* line 78, ../sass/screen.scss */
+/* line 77, ../sass/screen.scss */
 li.active a:link, li a.active, li.active a:hover, li a.active, li.active a:active, li a.active,
 li.active a:visited, li a.active, li span.active, #index ul.section li.active a:link,
 #index ul.section li.active a:hover, #index ul.section li.active a:active, #index ul.section li.active a:visited {
@@ -365,13 +394,13 @@ li.active a:visited, li a.active, li span.active, #index ul.section li.active a:
 }
 
 /* additional #index options */
-/* line 81, ../sass/screen.scss */
+/* line 80, ../sass/screen.scss */
 #index ul li .password a {
   /* background: url(../img/locked.gif) right center no-repeat; padding-right: 18px; */
 }
 
 /* the "new" indicator */
-/* line 84, ../sass/screen.scss */
+/* line 83, ../sass/screen.scss */
 #index ul li sup {
   color: #0c0;
   font-weight: bold;
@@ -383,121 +412,121 @@ li.active a:visited, li a.active, li span.active, #index ul.section li.active a:
 /* end styling for index */
 /* links styles only for the #index region */
 /* links styles only for the #exhibit region */
-/* line 94, ../sass/screen.scss */
+/* line 93, ../sass/screen.scss */
 #exhibit a:link {
   text-decoration: underline;
 }
 
 /* this is where you adjust your paddings for #index and #exhibit together */
-/* line 100, ../sass/screen.scss */
+/* line 99, ../sass/screen.scss */
 .container {
   padding: 27px 9px 25px 27px;
 }
 
 /* this is where you pad them separately */
 /* blog parts */
-/* line 107, ../sass/screen.scss */
+/* line 106, ../sass/screen.scss */
 #entries_wrapper {
   width: 800px;
 }
 
-/* line 108, ../sass/screen.scss */
+/* line 107, ../sass/screen.scss */
 #entries {
   width: 525px;
   float: left;
 }
 
-/* line 110, ../sass/screen.scss */
+/* line 109, ../sass/screen.scss */
 #entries .entry p {
   width: auto;
 }
 
-/* line 111, ../sass/screen.scss */
+/* line 110, ../sass/screen.scss */
 #entries .entry .asset {
   margin-bottom: 9px;
 }
 
-/* line 112, ../sass/screen.scss */
+/* line 111, ../sass/screen.scss */
 #entries .entry .captioning .title {
   margin-bottom: 9px;
 }
 
-/* line 113, ../sass/screen.scss */
+/* line 112, ../sass/screen.scss */
 #entries .entry .captioning .caption {
   margin-bottom: 9px;
 }
 
-/* line 114, ../sass/screen.scss */
+/* line 113, ../sass/screen.scss */
 #entries .entry_footer {
   margin-top: 12px;
   font-size: 11px;
   color: #999;
 }
 
-/* line 116, ../sass/screen.scss */
+/* line 115, ../sass/screen.scss */
 #entries .separator {
   padding-bottom: 20px;
   margin-bottom: 20px;
   border-bottom: 1px dotted #ccc;
 }
 
-/* line 117, ../sass/screen.scss */
+/* line 116, ../sass/screen.scss */
 #entries_wrapper #sidebar {
   float: right;
   width: 200px;
 }
 
-/* line 120, ../sass/screen.scss */
+/* line 119, ../sass/screen.scss */
 #prev_new_entries div#older {
   float: left;
 }
 
-/* line 121, ../sass/screen.scss */
+/* line 120, ../sass/screen.scss */
 #prev_new_entries div#newer {
   float: right;
   text-align: right;
 }
 
-/* line 123, ../sass/screen.scss */
+/* line 122, ../sass/screen.scss */
 .entry {
   margin-bottom: 18px;
 }
 
-/* line 124, ../sass/screen.scss */
+/* line 123, ../sass/screen.scss */
 .blog-separator {
   border-top: 1px solid #ccc;
   margin-bottom: 27px;
   width: 460px;
 }
 
-/* line 126, ../sass/screen.scss */
+/* line 125, ../sass/screen.scss */
 #plugins-list {
   margin-bottom: 18px;
 }
 
 /* style forms */
-/* line 131, ../sass/screen.scss */
+/* line 130, ../sass/screen.scss */
 .form-label label {
   padding-right: 24px;
   line-height: 2.2em;
 }
 
-/* line 134, ../sass/screen.scss */
+/* line 133, ../sass/screen.scss */
 .form-alert {
   margin-top: 9px;
 }
 
-/* line 135, ../sass/screen.scss */
+/* line 134, ../sass/screen.scss */
 .form-alert .failed {
   color: red;
 }
 
-/* line 136, ../sass/screen.scss */
+/* line 135, ../sass/screen.scss */
 #form-return {
   display: block;
 }
 
-/* line 138, ../sass/screen.scss */
+/* line 137, ../sass/screen.scss */
 .form-submit input {
   background-color: #333;
   border-bottom-left-radius: 3px 3px;
@@ -515,26 +544,26 @@ li.active a:visited, li a.active, li span.active, #index ul.section li.active a:
   font-size: 12px;
 }
 
-/* line 155, ../sass/screen.scss */
+/* line 154, ../sass/screen.scss */
 .form-submit input:hover {
   background: #0c0;
 }
 
-/* line 160, ../sass/screen.scss */
+/* line 159, ../sass/screen.scss */
 input[type=text], input[type=password], textarea {
   font: normal normal normal 1em/1.4 "Helvetica Neue", Arial, Helvetica, sans-serif;
   margin: 0px 0px 0.5em;
   padding: 0.3em;
 }
 
-/* line 166, ../sass/screen.scss */
+/* line 165, ../sass/screen.scss */
 #exhibit #columned p {
   width: auto;
 }
 
 /* BUTTONS */
 /* http://particletree.com/features/rediscovering-the-button-element/ */
-/* line 172, ../sass/screen.scss */
+/* line 171, ../sass/screen.scss */
 .buttons button a {
   display: block;
   float: left;
@@ -566,7 +595,7 @@ input[type=text], input[type=password], textarea {
   font-size: 12px;
 }
 
-/* line 201, ../sass/screen.scss */
+/* line 200, ../sass/screen.scss */
 .buttons button {
   width: auto;
   overflow: visible;
@@ -578,19 +607,19 @@ input[type=text], input[type=password], textarea {
   border: 0;
 }
 
-/* line 210, ../sass/screen.scss */
+/* line 209, ../sass/screen.scss */
 .buttons button {
   /* -moz-border-radius: 2px; -webkit-border-radius: 2px; border-radius: 2px; */
 }
 
-/* line 214, ../sass/screen.scss */
+/* line 213, ../sass/screen.scss */
 *:first-child + html button[type] {
   padding: 4px 10px 3px 7px;
   /* IE7 */
 }
 
 /* STANDARD */
-/* line 218, ../sass/screen.scss */
+/* line 217, ../sass/screen.scss */
 .buttons a:hover {
   background-color: #0c0;
   /* border:1px solid #c2e1ef; */
@@ -601,7 +630,7 @@ input[type=text], input[type=password], textarea {
   font-size: 12px;
 }
 
-/* line 227, ../sass/screen.scss */
+/* line 226, ../sass/screen.scss */
 .buttons a:active {
   background-color: #0c0;
   color: #fff;
@@ -612,7 +641,7 @@ input[type=text], input[type=password], textarea {
 }
 
 /* walkthrough */
-/* line 237, ../sass/screen.scss */
+/* line 236, ../sass/screen.scss */
 .walkthrough {
   position: relative;
   width: 905px;
@@ -621,21 +650,21 @@ input[type=text], input[type=password], textarea {
 }
 
 /* dots */
-/* line 240, ../sass/screen.scss */
+/* line 239, ../sass/screen.scss */
 .walkthrough-dot {
   height: 12px;
   width: 12px;
   position: absolute;
 }
 
-/* line 245, ../sass/screen.scss */
+/* line 244, ../sass/screen.scss */
 .trigger:hover {
   border: 4px solid red;
   background: red;
 }
 
 /* title space */
-/* line 251, ../sass/screen.scss */
+/* line 250, ../sass/screen.scss */
 #w1-1 {
   left: 94px;
   top: 133px;
@@ -643,7 +672,7 @@ input[type=text], input[type=password], textarea {
 }
 
 /* basic editor */
-/* line 254, ../sass/screen.scss */
+/* line 253, ../sass/screen.scss */
 #w1-2 {
   left: 148px;
   top: 170px;
@@ -651,7 +680,7 @@ input[type=text], input[type=password], textarea {
 }
 
 /* publish */
-/* line 257, ../sass/screen.scss */
+/* line 256, ../sass/screen.scss */
 #w1-3 {
   left: 770px;
   top: 140px;
@@ -659,7 +688,7 @@ input[type=text], input[type=password], textarea {
 }
 
 /* options */
-/* line 260, ../sass/screen.scss */
+/* line 259, ../sass/screen.scss */
 #w1-4 {
   left: 802px;
   top: 219px;
@@ -667,7 +696,7 @@ input[type=text], input[type=password], textarea {
 }
 
 /* uploads */
-/* line 263, ../sass/screen.scss */
+/* line 262, ../sass/screen.scss */
 #w1-5 {
   left: 792px;
   top: 317px;
@@ -675,7 +704,7 @@ input[type=text], input[type=password], textarea {
 }
 
 /* files */
-/* line 266, ../sass/screen.scss */
+/* line 265, ../sass/screen.scss */
 #w1-6 {
   left: 272px;
   top: 537px;
@@ -683,14 +712,14 @@ input[type=text], input[type=password], textarea {
 }
 
 /* files options */
-/* line 269, ../sass/screen.scss */
+/* line 268, ../sass/screen.scss */
 #w1-7 {
   left: 114px;
   top: 621px;
   z-index: 7;
 }
 
-/* line 271, ../sass/screen.scss */
+/* line 270, ../sass/screen.scss */
 .popup {
   position: absolute;
   display: none;
@@ -699,7 +728,7 @@ input[type=text], input[type=password], textarea {
   background: #f3f3f3;
 }
 
-/* line 277, ../sass/screen.scss */
+/* line 276, ../sass/screen.scss */
 .trigger {
   display: block;
   border: 4px solid #0c0;
