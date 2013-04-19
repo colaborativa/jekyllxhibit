@@ -195,22 +195,24 @@ En [vimeo.com][8] accedemos al `exhibit` en el que deseamos insertar el vídeo y
 
 En el texto para la inserción del vídeo hay que hacer una comprobación antes de almacenar los cambios del `exhibit`. *Jekyll* no entiende correctamente aquellas variables en las que no se especifica ningún valor, esperamos que resuelvan este problema pronto. En el ejemplo de abajo se trataría de las variables: **webkitAllowFullScreen**, **mozallowfullscreen** y **allowFullScreen**.
 
-```<iframe src="http://player.vimeo.com/video/58116607" width="500" height="281" frameborder="0" webkitAllowFullScreen mozallowfullscreen
- allowFullScreen> </iframe> <p><a href="http://vimeo.com/58116607">Montaje RepRapPro Huxley en Colaboratorio</a> from <a href="http://vimeo.com/colaborativa">colaborativa</a> on <a
- href="http://vimeo.com">Vimeo</a>.</p>```
+`<iframe src="http://player.vimeo.com/video/58116607" width="500" height="281" frameborder="0"`
+`webkitAllowFullScreen mozallowfullscreen allowFullScreen> </iframe> `
+`<p><a href="http://vimeo.com/58116607">Montaje RepRapPro Huxley en Colaboratorio</a> from `
+`<a href="http://vimeo.com/colaborativa">colaborativa</a> on <a
+ href="http://vimeo.com">Vimeo</a>.</p>`
 
  Para que el vídeo se inserte correctamente hay que editar el texto y eliminarlas. El texto anterior editado quedaría:
 
-```<iframe
- src="http://player.vimeo.com/video/58116607"  width="500" height="281" frameborder="0"> </iframe> <p><a href="http://vimeo.com/58116607">Montaje RepRapPro Huxley en Colaboratorio</a>
- from <a href="http://vimeo.com/colaborativa">colaborativa</a>
- on <a href="http://vimeo.com">Vimeo</a>.</p>```
+`<iframe src="http://player.vimeo.com/video/58116607"  width="500" height="281" frameborder="0"> `
+ `</iframe> <p><a href="http://vimeo.com/58116607">Montaje RepRapPro Huxley en Colaboratorio</a> `
+ `from <a href="http://vimeo.com/colaborativa">colaborativa</a>`
+ `on <a href="http://vimeo.com">Vimeo</a>.</p>`
 
 Haciendo click en el botón de **Vista preliminar** podemos comprobar que el vídeo se ha insertado correctamente en nuestro `exhibit`.
 
 <a href="http://www.flickr.com/photos/50381188@N06/8638920807/" title="Paso-07-18-Proseio-vimeo por colaborativa.eu, en Flickr"><img src="http://farm9.staticflickr.com/8104/8638920807_5a5ef1c6eb.jpg" width="500" height="396" alt="Paso-07-18-Proseio-vimeo"></a>
 
-## Instrucciones para configurar un dominio propio 
+## 8 Instrucciones para configurar un dominio propio 
 
 Podéis encontrar una guía completa elaborada por GitHub en este [enlace][10]. Uno de los pasos fundamentales es el siguiente:
 
