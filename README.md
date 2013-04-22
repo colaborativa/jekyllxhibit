@@ -1,4 +1,5 @@
 # Tutorial de la plantilla base *Jekyllxhibit*: creación de páginas Web por colaborativa.eu
+Última actualización: 22 de Abril de 2013
 
 ## 1. Registro de dominio (opcional)
 
@@ -32,10 +33,11 @@ Hacemos click en **FORK this repo** localizado en la parte superior derecha y te
 
 Un paso más antes de comenzar a añadir contenidos. Tenemos que renombrar la actual plantilla teniendo en cuenta que:
 
-* Si vamos a utilizar un dominio propio no importa el nombre que elijamos para la plantilla.
-* Si no disponemos de dominio entonces la plantilla hay que llamarla igual siguiendo la nomenclatura: 
+* Si es una pagina de *perfil* y no disponemos de dominio propio o vamos a utilizar un dominio propio la plantilla hay que llamarla siguiendo la nomenclatura: 
 
 > NOMBREUSUARIO.github.io 
+
+* Si es una pagina de *proyecto* y vamos a utilizar un subdominio dentro de nuestro dominio principal no importa el nombre que elijamos para la plantilla.
 
  De esta manera podremos acceder a nuestra página Web a través de la url: 
 
@@ -45,9 +47,7 @@ Para renombrarla hacemos click en la pestaña **Settings** del repositorio, intr
 
 > Your site is published at http://www.nombreusuario.github.io
 
-<a href="http://www.flickr.com/photos/50381188@N06/8663129822/" title="Paso-03-01-GitHub-Renombrar por colaborativa.eu, en Flickr"><img src="http://farm9.staticflickr.com/8255/8663129822_22c39377c1.jpg" width="500" height="338" alt="Paso-03-01-GitHub-Renombrar"></a>
-
-Es importante que al renombrar el proyecto **Default Branch** sea igual a **master**. 
+<a href="http://www.flickr.com/photos/50381188@N06/8638715922/" title="Paso-03-01-GitHub-Renombrar por colaborativa.eu, en Flickr"><img src="http://farm9.staticflickr.com/8118/8638715922_8ba3f8b6d4.jpg" width="500" height="286" alt="Paso-03-01-GitHub-Renombrar"></a>
 
 ## 5. Configurar plantilla [GitHub][6]
 
@@ -58,13 +58,13 @@ El archivo `CNAME` forma parte de nuestra plantilla *Jekyllxhibit* y tiene que s
 
 Para editar el archivo `CNAME` ir a nuestra plantilla en [GitHub][6], veremos entonces la lista de archivos que la forman. Hacer click sobre el archivo `CNAME` y aparecerá la siguiente pantalla:
 
-<a href="http://www.flickr.com/photos/50381188@N06/8662033087/" title="Paso-05-01-GitHub-Editar-CNAME por colaborativa.eu, en Flickr"><img src="http://farm9.staticflickr.com/8265/8662033087_806a19a1a0.jpg" width="500" height="251" alt="Paso-05-01-GitHub-Editar-CNAME"></a> 
+<a href="http://www.flickr.com/photos/50381188@N06/8637668359/" title="Paso-05-01-GitHub-Editar-CNAME por colaborativa.eu, en Flickr"><img src="http://farm9.staticflickr.com/8528/8637668359_e91c19c5f9.jpg" width="500" height="286" alt="Paso-05-01-GitHub-Editar-CNAME"></a> 
 
-Si está ya vacio no hace falta hacer nada, en caso de contener un nombre de dominio hacer click en **Edit**, editarlo y hacer click en **Commit Changes** situado abajo a la derecha.
+Hacer click en **Edit**, editarlo y hacer click en **Commit Changes** situado abajo a la derecha. 
 
-<a href="http://www.flickr.com/photos/50381188@N06/8662033247/" title="Paso-05-02-GitHub-Editar-CNAME por colaborativa.eu, en Flickr"><img src="http://farm9.staticflickr.com/8255/8662033247_043b7ceeb7.jpg" width="500" height="398" alt="Paso-05-02-GitHub-Editar-CNAME"></a>
+<a href="http://www.flickr.com/photos/50381188@N06/8637673623/" title="Paso-05-02-GitHub-Editar-CNAME por colaborativa.eu, en Flickr"><img src="http://farm9.staticflickr.com/8114/8637673623_7e97737735.jpg" width="500" height="325" alt="Paso-05-02-GitHub-Editar-CNAME"></a>
 
-En el explorador ir a nombreusuario.github.io y ver la plantilla funcionando. ¡Ya podemos comenzar a añadir contenidos!
+En el explorador ir a nombreusuario.github.com y ver la plantilla funcionando. ¡Ya podemos comenzar a añadir contenidos!
 
 ## 6. Descripción estructura plantilla [GitHub][6]
 
@@ -88,23 +88,19 @@ Para comenzar a añadir contenidos iremos a:
 
 y accederemos con nuestras credenciales de [GitHub][6], para ello hacer click en el botón **Authorize with GitHub**.
 
-<a href="http://www.flickr.com/photos/50381188@N06/8661989797/" title="Paso-07-02-Proseio-Listado-01 por colaborativa.eu, en Flickr"><img src="http://farm9.staticflickr.com/8253/8661989797_b547459157.jpg" width="500" height="313" alt="Paso-07-02-Proseio-Listado-01"></a>
+<a href="http://www.flickr.com/photos/50381188@N06/8638725787/" title="Paso-07-01-Proseio-Acceder por colaborativa.eu, en Flickr"><img src="http://farm9.staticflickr.com/8522/8638725787_9a2ec88a12.jpg" width="500" height="271" alt="Paso-07-01-Proseio-Acceder"></a>
 
 [Prose.io][4] tendrá acceso a nuestra plantilla alojada en [GitHub][6] y nos permitirá añadir contenidos. [Prose.io][4] nos mostrará una lista de proyectos alojados en [GitHub][6], hacemos click en la plantilla que deseamos modificar y aparecerá la siguiente pantalla:
 
-<a href="http://www.flickr.com/photos/50381188@N06/8661989961/" title="Paso-07-02-Proseio-Listado-02 por colaborativa.eu, en Flickr"><img src="http://farm9.staticflickr.com/8239/8661989961_3feaf16980.jpg" width="500" height="313" alt="Paso-07-02-Proseio-Listado-02"></a>
+<a href="http://www.flickr.com/photos/50381188@N06/8638736133/" title="Paso-07-02-Proseio-Listado por colaborativa.eu, en Flickr"><img src="http://farm9.staticflickr.com/8525/8638736133_9c982f554d.jpg" width="500" height="271" alt="Paso-07-02-Proseio-Listado"></a>
 
 Podremos añadir o modificar contenidos en el directorio `exhibits`, que contiene nuestros proyectos, artículos, noticias, etc., y en el directorio `sections`, que contiene las secciones en las que se clasifican los exhibits y se muestran en la columna de la izquierda.
-
-Antes de comenzar a añadir contenidos debemos asegurarnos que exhibits y sections están dentro de **master** en [Prose.io][4], esto es necesario en caso de no disponer de un dominio propio. Dentro de **master** estarán todos los contenidos que GitHub va a publicar en nombreusuario.github.io. 
-
-<a href="http://www.flickr.com/photos/50381188@N06/8661990109/" title="Paso-07-02-Proseio-Listado-03 por colaborativa.eu, en Flickr"><img src="http://farm9.staticflickr.com/8259/8661990109_19472106dd.jpg" width="500" height="313" alt="Paso-07-02-Proseio-Listado-03"></a>
 
 ### 7.1 Editar secciones con [Prose.io][4]
 
 Para editar una sección existente hacer click en el directorio `sections` y aparecerá el listado de secciones existentes:
 
-<a href="http://www.flickr.com/photos/50381188@N06/8663096662/" title="Paso-07-03-Proseio-sections por colaborativa.eu, en Flickr"><img src="http://farm9.staticflickr.com/8252/8663096662_7ee1cb1267.jpg" width="500" height="313" alt="Paso-07-03-Proseio-sections"></a>
+<a href="http://www.flickr.com/photos/50381188@N06/8638754333/" title="Paso-07-03-Proseio-sections por colaborativa.eu, en Flickr"><img src="http://farm9.staticflickr.com/8119/8638754333_d91cef9fbd.jpg" width="500" height="271" alt="Paso-07-03-Proseio-sections"></a>
 
 Hacemos click en la que deseamos modificar y aparecerá la siguiente barra de edición:
 
@@ -195,33 +191,24 @@ En [vimeo.com][8] accedemos al `exhibit` en el que deseamos insertar el vídeo y
 
 En el texto para la inserción del vídeo hay que hacer una comprobación antes de almacenar los cambios del `exhibit`. *Jekyll* no entiende correctamente aquellas variables en las que no se especifica ningún valor, esperamos que resuelvan este problema pronto. En el ejemplo de abajo se trataría de las variables: **webkitAllowFullScreen**, **mozallowfullscreen** y **allowFullScreen**.
 
-`<iframe src="http://player.vimeo.com/video/58116607" width="500" height="281" frameborder="0"`
-`webkitAllowFullScreen mozallowfullscreen allowFullScreen> </iframe> `
-`<p><a href="http://vimeo.com/58116607">Montaje RepRapPro Huxley en Colaboratorio</a> from `
-`<a href="http://vimeo.com/colaborativa">colaborativa</a> on <a
- href="http://vimeo.com">Vimeo</a>.</p>`
+```<iframe src="http://player.vimeo.com/video/58116607" width="500" height="281" frameborder="0" webkitAllowFullScreen mozallowfullscreen
+ allowFullScreen> </iframe> <p><a href="http://vimeo.com/58116607">Montaje RepRapPro Huxley en Colaboratorio</a> from <a href="http://vimeo.com/colaborativa">colaborativa</a> on <a
+ href="http://vimeo.com">Vimeo</a>.</p>```
 
  Para que el vídeo se inserte correctamente hay que editar el texto y eliminarlas. El texto anterior editado quedaría:
 
-`<iframe src="http://player.vimeo.com/video/58116607"  width="500" height="281" frameborder="0"> `
- `</iframe> <p><a href="http://vimeo.com/58116607">Montaje RepRapPro Huxley en Colaboratorio</a> `
- `from <a href="http://vimeo.com/colaborativa">colaborativa</a>`
- `on <a href="http://vimeo.com">Vimeo</a>.</p>`
+```<iframe
+ src="http://player.vimeo.com/video/58116607"  width="500" height="281" frameborder="0"> </iframe> <p><a href="http://vimeo.com/58116607">Montaje RepRapPro Huxley en Colaboratorio</a>
+ from <a href="http://vimeo.com/colaborativa">colaborativa</a>
+ on <a href="http://vimeo.com">Vimeo</a>.</p>```
 
 Haciendo click en el botón de **Vista preliminar** podemos comprobar que el vídeo se ha insertado correctamente en nuestro `exhibit`.
 
 <a href="http://www.flickr.com/photos/50381188@N06/8638920807/" title="Paso-07-18-Proseio-vimeo por colaborativa.eu, en Flickr"><img src="http://farm9.staticflickr.com/8104/8638920807_5a5ef1c6eb.jpg" width="500" height="396" alt="Paso-07-18-Proseio-vimeo"></a>
 
-## 8 Instrucciones para configurar un dominio propio 
-
-Podéis encontrar una guía completa elaborada por GitHub en este [enlace][10]. Uno de los pasos fundamentales es el siguiente:
-
-* Configurar DNS: al dar de alta tu dominio tendrás que establecer un **A record** que apunte a la dirección IP de GitHub 204.232.175.78. Dependiendo de donde tengas contratado tu dominio las instrucciones para realizarlo serán ligeramente distintas.
-
 ## Créditos
 
 La plantilla base *Jekyllxhibit* es un proyecto de código libre distribuido bajo [licencia MIT][1]. Los textos e imágenes bajo una licencia creative commons [CC BY 3.0 ES][2].
-
 ## Contacto
 
 Puedes contactar con nosotros en info@colaborativa.eu para más información o visitar nuestra página Web [colaborativa.eu][3].
@@ -235,4 +222,7 @@ Puedes contactar con nosotros en info@colaborativa.eu para más información o v
 [7]: https://github.com/colaborativa/jekyllxhibit
 [8]: http://vimeo.com
 [9]: http://flickr.com
-[10]: https://help.github.com/articles/setting-up-a-custom-domain-with-pages
+
+
+
+

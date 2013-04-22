@@ -7,12 +7,13 @@ section: ¡Tutoriales!
 published: true
 ---
 # Tutorial de la plantilla base *Jekyllxhibit*: creación de páginas Web por colaborativa.eu
+Última actualización: 22 de Abril de 2013
 
 ## 1. Registro de dominio (opcional)
 
 El primer paso sería registrar un dominio .ES o .COM. En caso de no haber registrado un dominio nuestra página web estará alojada en un subdominio de [GitHub][6]
 
-> http://NOMBREUSUARIO.github.com 
+> http://NOMBREUSUARIO.github.io 
 
 ## 2. Dar de alta en [GitHub][6]
 
@@ -40,18 +41,19 @@ Hacemos click en **FORK this repo** localizado en la parte superior derecha y te
 
 Un paso más antes de comenzar a añadir contenidos. Tenemos que renombrar la actual plantilla teniendo en cuenta que:
 
-* Si vamos a utilizar un dominio propio no importa el nombre que elijamos para la plantilla.
-* Si no disponemos de dominio entonces la plantilla hay que llamarla igual siguiendo la nomenclatura: 
+* Si es una pagina de *perfil* y no disponemos de dominio propio o vamos a utilizar un dominio propio la plantilla hay que llamarla siguiendo la nomenclatura: 
 
-> NOMBREUSUARIO.github.com 
+> NOMBREUSUARIO.github.io 
+
+* Si es una pagina de *proyecto* y vamos a utilizar un subdominio dentro de nuestro dominio principal no importa el nombre que elijamos para la plantilla.
 
  De esta manera podremos acceder a nuestra página Web a través de la url: 
 
-> http://nombreusuario.github.com
+> http://nombreusuario.github.io
 
 Para renombrarla hacemos click en la pestaña **Settings** del repositorio, introducimos el nuevo nombre y hacemos click en **Rename**. Llegado este punto hay que asegurarse que la sección **GitHub Pages** de **Settings** está activada y puede leerse: 
 
-> Your site is published at http://www.nombreusuario.github.com
+> Your site is published at http://www.nombreusuario.github.io
 
 <a href="http://www.flickr.com/photos/50381188@N06/8638715922/" title="Paso-03-01-GitHub-Renombrar por colaborativa.eu, en Flickr"><img src="http://farm9.staticflickr.com/8118/8638715922_8ba3f8b6d4.jpg" width="500" height="286" alt="Paso-03-01-GitHub-Renombrar"></a>
 
@@ -60,7 +62,7 @@ Para renombrarla hacemos click en la pestaña **Settings** del repositorio, intr
 El archivo `CNAME` forma parte de nuestra plantilla *Jekyllxhibit* y tiene que ser editado teniendo en cuenta:
 
 * Si vamos a utilizar un dominio propio el archivo `CNAME` debe contener el nombre de nuestro dominio, por ejemplo: `colaborativa.eu`. Habrá que esperar unos 10 minutos para ver el dominio actualizado.
-* Si no disponemos de dominio propio, se accederá a nuestra página  a través de `NOMBREUSUARIO.github.com`. En este caso el archivo `CNAME` debe contener una línea en blanco.
+* Si no disponemos de dominio propio, se accederá a nuestra página  a través de `NOMBREUSUARIO.github.io`. En este caso el archivo `CNAME` debe contener una línea en blanco.
 
 Para editar el archivo `CNAME` ir a nuestra plantilla en [GitHub][6], veremos entonces la lista de archivos que la forman. Hacer click sobre el archivo `CNAME` y aparecerá la siguiente pantalla:
 
