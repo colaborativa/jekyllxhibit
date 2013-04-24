@@ -191,19 +191,23 @@ En [vimeo.com][8] accedemos al `exhibit` en el que deseamos insertar el vídeo y
 
 En el texto para la inserción del vídeo hay que hacer una comprobación antes de almacenar los cambios del `exhibit`. *Jekyll* no entiende correctamente aquellas variables en las que no se especifica ningún valor, esperamos que resuelvan este problema pronto. En el ejemplo de abajo se trataría de las variables: **webkitAllowFullScreen**, **mozallowfullscreen** y **allowFullScreen**.
 
-`<iframe src="http://player.vimeo.com/video/58116607" width="500" height="281" frameborder="0"`
-`webkitAllowFullScreen mozallowfullscreen`
-`allowFullScreen> </iframe> <p><a href="http://vimeo.com/58116607">Montaje RepRapPro Huxley en Colaboratorio</a>`
- `from <a href="http://vimeo.com/colaborativa">colaborativa</a> on <a`
- `href="http://vimeo.com">Vimeo</a>.</p>`
+```html
+<iframe src="http://player.vimeo.com/video/58116607" width="500" height="281" frameborder="0"
+webkitAllowFullScreen mozallowfullscreen allowFullScreen>
+</iframe> <p><a href="http://vimeo.com/58116607">Montaje RepRapPro Huxley en Colaboratorio</a>
+from <a href="http://vimeo.com/colaborativa">colaborativa</a> on 
+<a href="http://vimeo.com">Vimeo</a>.
+</p>
+```
 
 Para que el vídeo se inserte correctamente hay que editar el texto y eliminarlas. El texto anterior editado quedaría:
 
-```htlm
+```html
 <iframe src="http://player.vimeo.com/video/58116607"  width="500" height="281" frameborder="0"> 
 </iframe> 
 <p>
-<a href="http://vimeo.com/58116607">Montaje RepRapPro Huxley en Colaboratorio</a> from <a href="http://vimeo.com/colaborativa">colaborativa</a> on <a href="http://vimeo.com">Vimeo</a>.
+<a href="http://vimeo.com/58116607">Montaje RepRapPro Huxley en Colaboratorio</a> from 
+<a href="http://vimeo.com/colaborativa">colaborativa</a> on <a href="http://vimeo.com">Vimeo</a>.
 </p>
 ```
 
