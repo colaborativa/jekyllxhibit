@@ -199,8 +199,7 @@ En el texto para la inserción del vídeo hay que hacer una comprobación antes 
 
 Para que el vídeo se inserte correctamente hay que editar el texto y eliminarlas. El texto anterior editado quedaría:
 
-`<iframe src="http://player.vimeo.com/video/58116607"  width="500" height="281" frameborder="0"> </iframe> <p><a href="http://vimeo.com/58116607">Montaje RepRapPro Huxley en Colaboratorio</a>`
-`from <a href="http://vimeo.com/colaborativa">colaborativa</a> on <a href="http://vimeo.com">Vimeo</a>.</p>`
+```<iframe src="http://player.vimeo.com/video/58116607"  width="500" height="281" frameborder="0"> </iframe> <p><a href="http://vimeo.com/58116607">Montaje RepRapPro Huxley en Colaboratorio</a> from <a href="http://vimeo.com/colaborativa">colaborativa</a> on <a href="http://vimeo.com">Vimeo</a>.</p>```
 
 Haciendo click en el botón de **Vista preliminar** podemos comprobar que el vídeo se ha insertado correctamente en nuestro `exhibit`.
 
