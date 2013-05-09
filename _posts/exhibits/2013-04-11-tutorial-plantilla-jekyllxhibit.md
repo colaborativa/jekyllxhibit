@@ -1,11 +1,12 @@
 ---
+published: true
 layout: default
 category: exhibit
 title: "¿Cómo usar Jekyllxhibit?"
-section: ¡Tutoriales!
+section: "¡Tutoriales!"
 
-published: true
 ---
+
 # Tutorial de la plantilla base *Jekyllxhibit*: creación de páginas Web por colaborativa.eu
 Última actualización: 22 de Abril de 2013
 
@@ -230,7 +231,3 @@ Puedes contactar con nosotros en info@colaborativa.eu para más información o v
 [7]: https://github.com/colaborativa/jekyllxhibit
 [8]: http://vimeo.com
 [9]: http://flickr.com
-
-
-
-
